@@ -1,0 +1,928 @@
+a,
+button,
+input,
+select,
+h1,
+h2,
+h3,
+h4,
+h5,
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  text-decoration: none;
+  appearance: none;
+  background: none;
+}
+.home-new,
+.home-new * {
+  box-sizing: border-box;
+}
+.home-new {
+  background: var(--main-white, #ffffff);
+  width: 100%;
+  height: 7379px;
+  position: relative;
+  overflow: hidden;
+}
+.group {
+  position: absolute;
+  inset: 0;
+}
+.group2 {
+  position: absolute;
+  left: 75px;
+  top: 66px;
+  overflow: visible;
+}
+.group3 {
+  width: 22.91px;
+  height: 27.1px;
+  position: static;
+}
+.group4 {
+  position: absolute;
+  left: 205.67px;
+  top: 76.23px;
+  overflow: visible;
+}
+.group5 {
+  position: absolute;
+  left: 198.51px;
+  top: 82.3px;
+  overflow: visible;
+}
+.group6 {
+  position: absolute;
+  left: 217.47px;
+  top: 82.47px;
+  overflow: visible;
+}
+.group7 {
+  position: absolute;
+  left: 217.38px;
+  top: 87.55px;
+  overflow: visible;
+}
+.group8 {
+  position: absolute;
+  left: 205.46px;
+  top: 99.48px;
+  overflow: visible;
+}
+.group9 {
+  position: absolute;
+  left: 210.25px;
+  top: 99.55px;
+  overflow: visible;
+}
+.group10 {
+  position: absolute;
+  left: 198.47px;
+  top: 87.47px;
+  overflow: visible;
+}
+.group11 {
+  position: absolute;
+  left: 210.42px;
+  top: 76.27px;
+  overflow: visible;
+}
+.group12 {
+  width: 53.57px;
+  height: 20.7px;
+  position: static;
+}
+.group13 {
+  position: absolute;
+  left: 229.3px;
+  top: 78.76px;
+  overflow: visible;
+}
+.mesh {
+  opacity: 0.23999999463558197;
+  position: absolute;
+  inset: 0;
+}
+.group-3 {
+  position: absolute;
+  left: 340.2px;
+  top: 361.2px;
+  overflow: visible;
+}
+.group-4 {
+  position: absolute;
+  left: 323px;
+  top: 286px;
+  overflow: visible;
+}
+.group14 {
+  position: absolute;
+  left: 186px;
+  top: 66px;
+  overflow: visible;
+}
+.group15 {
+  position: absolute;
+  left: 205.67px;
+  top: 76.23px;
+  overflow: visible;
+}
+.group16 {
+  position: absolute;
+  left: 198.51px;
+  top: 82.3px;
+  overflow: visible;
+}
+.group17 {
+  position: absolute;
+  left: 217.47px;
+  top: 82.47px;
+  overflow: visible;
+}
+.group18 {
+  position: absolute;
+  left: 217.38px;
+  top: 87.55px;
+  overflow: visible;
+}
+.group19 {
+  position: absolute;
+  left: 205.46px;
+  top: 99.48px;
+  overflow: visible;
+}
+.group20 {
+  position: absolute;
+  left: 210.25px;
+  top: 99.55px;
+  overflow: visible;
+}
+.group21 {
+  position: absolute;
+  left: 198.47px;
+  top: 87.47px;
+  overflow: visible;
+}
+.group22 {
+  position: absolute;
+  left: 210.42px;
+  top: 76.27px;
+  overflow: visible;
+}
+.group23 {
+  position: absolute;
+  left: 229.3px;
+  top: 78.76px;
+  overflow: visible;
+}
+.frame-8 {
+  background: var(--main-white, #ffffff);
+  border-radius: 24px;
+  border-style: solid;
+  border-color: var(--system-gray-dark-06, #141415);
+  border-width: 1px;
+  padding: 5px 24px 5px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 85%;
+  top: 50px;
+  overflow: hidden;
+}
+.group-6 {
+  flex-shrink: 0;
+  width: 79px;
+  height: 28px;
+  position: static;
+}
+.frame-82 {
+  display: flex;
+  flex-direction: row;
+  gap: 6px;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  left: 24px;
+  top: 5px;
+}
+.frame-6 {
+  flex-shrink: 0;
+  width: 24px;
+  height: 18px;
+  position: relative;
+}
+.group-5 {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-17 {
+  background: var(--main-xiketic-black, #080510);
+  border-radius: 4px 4px 0px 0px;
+  width: 20px;
+  height: 2px;
+  position: absolute;
+  left: 2px;
+  top: 2px;
+}
+.rectangle-18 {
+  background: var(--main-xiketic-black, #080510);
+  width: 20px;
+  height: 2px;
+  position: absolute;
+  left: 2px;
+  top: 8px;
+}
+.rectangle-19 {
+  background: var(--main-xiketic-black, #080510);
+  border-radius: 0px 0px 4px 4px;
+  width: 20px;
+  height: 2px;
+  position: absolute;
+  left: 2px;
+  top: 14px;
+}
+.menu {
+  color: var(--main-xiketic-black, #080510);
+  text-align: left;
+  font: 500 18px/28px "General Sans", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.component {
+  color: var(--main-xiketic-black, #080510);
+  text-align: left;
+  font: 400 95px "Clash Display", sans-serif;
+  position: absolute;
+  left: 75px;
+  top: 158px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.component2 {
+  color: var(--main-xiketic-black, #080510);
+  text-align: left;
+  font: 400 95px "Clash Display", sans-serif;
+  position: absolute;
+  left: 75px;
+  top: 245px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.component3 {
+  color: var(--main-xiketic-black, #080510);
+  text-align: left;
+  font: 400 95px "Clash Display", sans-serif;
+  position: absolute;
+  left: 75px;
+  top: 340px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.join-us-on-sundays-for-our-in-person-gathering-at-9-00-am-venue-the-jewel-aeida-105-hakeem-dickson-link-rd-eti-osa-lekki {
+  color: var(--main-xiketic-black, #080510);
+  text-align: left;
+  font: 400 22px/32px "General Sans", sans-serif;
+  position: absolute;
+  left: 65%;
+  top: 240px;
+  width: 413px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.join-us-on-sundays-for-our-in-person-gathering-at-9-00-am-venue-the-jewel-aeida-105-hakeem-dickson-link-rd-eti-osa-lekki-span {
+  color: var(--main-xiketic-black, #080510);
+  font: 400 22px/32px "General Sans", sans-serif;
+}
+.join-us-on-sundays-for-our-in-person-gathering-at-9-00-am-venue-the-jewel-aeida-105-hakeem-dickson-link-rd-eti-osa-lekki-span2 {
+  color: var(--main-xiketic-black, #080510);
+  font: 400 22px/32px "General Sans", sans-serif;
+  text-decoration: underline;
+}
+.frame-5 {
+  background: var(--main-chartreuse, #b9ce42);
+  border-radius: 36px;
+  padding: 10px 24px 10px 24px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 80%;
+  top: 380px;
+}
+.see-our-programs {
+  color: var(--main-xiketic-black, #080510);
+  text-align: left;
+  font: 500 16px/28px "General Sans", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.component4 {
+  color: var(--main-xiketic-black, #080510);
+  text-align: center;
+  font: 400 82px "Clash Display", sans-serif;
+  position: absolute;  
+  top: 490px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.group-875024 {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-154 {
+  background: #060809;
+  border-radius: 16.35px;
+  border-style: solid;
+  border-color: var(--colours-greys-licorice-400, #50555e);
+  border-width: 0.68px;
+  width: 90%;
+  height: 746.82px;
+  position: absolute;
+  left: 5%;
+  top: 600px;
+}
+.frame-330 {
+  background: #ffffff;
+  width: 80%;
+  height: 692.31px;
+  position: absolute;
+  left: 10%;
+  top: 630px;
+  overflow: hidden;
+}
+.rectangle-149 {
+  width: 1334.2px;
+  height: 973.05px;
+  position: absolute;
+  left: 0px;
+  top: -21.81px;
+}
+.rectangle-113 {
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.62) 100%
+  );
+  width: 100%;
+  height: 692.55px;
+  position: absolute;
+  left: 0.04px;
+  top: calc(50% - 346.21px);
+}
+.group-7 {
+  position: absolute;
+  inset: 0;
+}
+.ellipse-1 {
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 50%;
+  width: 99.08px;
+  height: 99.08px;
+  position: absolute;
+  left: calc(50% - 49.5px);
+  top: calc(50% - 49.93px);
+}
+.icons {
+  position: absolute;
+  left: 48%;
+  top: 322.45px;
+  overflow: visible;
+}
+.component5 {
+  color: var(--main-xiketic-black, #080510);
+  text-align: left;
+  font: 400 82px "Clash Display", sans-serif;
+  position: absolute;
+  left: 5%;
+  top: 1400px;
+  width: 337px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.on-sundays-we-gather-with-our-voices-raised-as-one-in-worship-learning-from-god-s-word-holding-hands-in-prayer-sharing-our-burdens-through-questions-and-our-joys-in-after-service-banters-join-us-in-person-or-online-to-be-a-part-of-this-experience {
+  color: var(--main-xiketic-black, #080510);
+  text-align: left;
+  font: 400 22px/32px "General Sans", sans-serif;
+  position: absolute;
+  left: 50%;
+  top: 1400px;
+  width: 614px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.component-1 {
+  width: 160px;
+  height: 160px;
+  position: absolute;
+  left: 35%;
+  top: 1420px;
+}
+.ellipse-2 {
+  background: var(--main-white, #ffffff);
+  border-radius: 50%;
+  border-style: solid;
+  border-color: var(--system-gray-dark-04, #333338);
+  border-width: 1px;
+  width: 160px;
+  height: 160px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.ellipse-3 {
+  background: rgba(255, 255, 255, 0.02);
+  border-radius: 50%;
+  width: 4px;
+  height: 4px;
+  position: absolute;
+  left: 78px;
+  top: 80px;
+}
+.frame {
+  position: absolute;
+  left: 63px;
+  top: 46px;
+  overflow: visible;
+}
+.our-services {
+  color: var(--main-xiketic-black, #080510);
+  text-align: left;
+  font: 500 16px/32px "General Sans", sans-serif;
+  position: absolute;
+  left: 31px;
+  top: 82px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.rectangle-445 {
+  background: var(--main-xiketic-black, #080510);
+  width: 1728px;
+  height: 2554px;
+  position: absolute;
+  left: calc(50% - 864px);
+  top: 2808px;
+}
+.component6 {
+  color: var(--main-white, #ffffff);
+  text-align: right;
+  font: 400 82px "Clash Display", sans-serif;
+  position: absolute;
+  left: calc(50% - 718px);
+  top: 2988px;
+  width: 1396px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.component7 {
+  color: var(--main-white, #ffffff);
+  text-align: left;
+  font: 400 40px "Clash Display", sans-serif;
+  position: absolute;
+  left: calc(50% - 92px);
+  top: 3507px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.component8 {
+  color: var(--main-white, #ffffff);
+  text-align: left;
+  font: 400 40px "Clash Display", sans-serif;
+  position: absolute;
+  left: calc(50% - 92px);
+  top: 4865px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.component9 {
+  color: var(--main-white, #ffffff);
+  text-align: left;
+  font: 400 40px "Clash Display", sans-serif;
+  position: absolute;
+  left: calc(50% - 678px);
+  top: 4214px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.pray-as-you-go-is-our-6-30-am-monday-prayer-meetings-on-zoom-a-time-to-share-our-requests-testimonies-and-pray-concerning-our-lives-our-city-and-the-church {
+  color: var(--main-white, #ffffff);
+  text-align: left;
+  font: 400 22px/32px "General Sans", sans-serif;
+  position: absolute;
+  left: 772px;
+  top: 3580px;
+  width: 460px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.city-courses-are-talks-teachings-and-sermons-curated-for-your-growth-as-you-begin-and-continue-your-walk-with-god-we-hope-the-knowledge-wisdom-ad-experiences-of-others-help-to-answer-your-questions-deepen-your-faith-and-bring-you-closer-to-jesus {
+  color: var(--main-white, #ffffff);
+  text-align: left;
+  font: 400 22px/32px "General Sans", sans-serif;
+  position: absolute;
+  left: 772px;
+  top: 4938px;
+  width: 483px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.we-also-meet-in-small-groups-a-safe-space-where-we-talk-about-god-s-word-pray-and-share-our-lives-with-one-another-you-can-be-a-part-of-a-small-group-here {
+  color: var(--main-white, #ffffff);
+  text-align: left;
+  font: 400 22px/32px "General Sans", sans-serif;
+  position: absolute;
+  left: 186px;
+  top: 4287px;
+  width: 460px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.vector-2 {
+  position: absolute;
+  left: calc(50% - 678px);
+  top: 3121px;
+  overflow: visible;
+}
+.vector-3 {
+  position: absolute;
+  left: calc(50% - 128px);
+  top: 3121px;
+  transform: translate(-0.5px, 0px);
+  overflow: visible;
+}
+.vector-7 {
+  position: absolute;
+  left: calc(50% - 128px);
+  top: 4543px;
+  transform: translate(-0.5px, 0px);
+  overflow: visible;
+}
+.vector-5 {
+  position: absolute;
+  left: calc(50% - -128px);
+  top: 3832px;
+  transform: translate(-0.5px, 0px);
+  overflow: visible;
+}
+.rectangle-161 {
+  width: 514px;
+  height: 551px;
+  position: absolute;
+  left: 186px;
+  top: 3157px;
+}
+.rectangle-162 {
+  width: 514px;
+  height: 551px;
+  position: absolute;
+  left: 186px;
+  top: 4579px;
+}
+.frame2 {
+  position: absolute;
+  left: 1074px;
+  top: 3512px;
+  overflow: visible;
+}
+.frame3 {
+  position: absolute;
+  left: 946px;
+  top: 4870px;
+  overflow: visible;
+}
+.frame4 {
+  position: absolute;
+  left: 449px;
+  top: 4219px;
+  overflow: visible;
+}
+.frame-33610 {
+  background: var(--main-white, #ffffff);
+  width: 1728px;
+  height: 1093px;
+  position: absolute;
+  left: 0px;
+  top: 5362px;
+  overflow: hidden;
+}
+.component10 {
+  color: var(--main-xiketic-black, #080510);
+  text-align: left;
+  font: 400 82px "Clash Display", sans-serif;
+  position: absolute;
+  left: calc(50% - 698px);
+  top: 180px;
+  width: 657px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.frame-33629 {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 0px;
+  top: 345px;
+}
+.component-2 {
+  background: var(--main-white, #ffffff);
+  flex-shrink: 0;
+  width: 576px;
+  height: 778px;
+  position: relative;
+  overflow: hidden;
+}
+.rectangle-164 {
+  background: rgba(8, 5, 16, 0.01);
+  width: 576px;
+  height: 2px;
+  position: absolute;
+  left: calc(50% - 288px);
+  top: calc(50% - 1px);
+}
+.vector-6 {
+  opacity: 0.20000000298023224;
+  position: absolute;
+  left: calc(50% - 288px);
+  top: 0px;
+  overflow: visible;
+}
+.vector-72 {
+  opacity: 0.20000000298023224;
+  position: absolute;
+  left: calc(50% - -288px);
+  top: 778px;
+  transform: translate(-0.5px, -778px);
+  overflow: visible;
+}
+.frame-33614 {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  left: calc(50% - 90px);
+  top: 74px;
+}
+.component11 {
+  color: var(--main-xiketic-black, #080510);
+  text-align: left;
+  font: 400 40px "Clash Display", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.frame5 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.vector-62 {
+  opacity: 0.20000000298023224;
+  position: absolute;
+  left: calc(50% - 288px);
+  top: 0px;
+  overflow: visible;
+}
+.vector-73 {
+  opacity: 0.20000000298023224;
+  position: absolute;
+  left: calc(50% - -288px);
+  top: 778px;
+  transform: translate(-0.5px, -778px);
+  overflow: visible;
+}
+.frame-336142 {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  left: calc(50% - 81px);
+  top: 74px;
+}
+.frame6 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.vector-63 {
+  opacity: 0.20000000298023224;
+  position: absolute;
+  left: calc(50% - 288px);
+  top: 0px;
+  overflow: visible;
+}
+.frame-336143 {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  left: calc(50% - 141px);
+  top: 74px;
+}
+.frame7 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.vector-8 {
+  position: absolute;
+  left: calc(50% - 678px);
+  top: 3832px;
+  overflow: visible;
+}
+.vector-12 {
+  position: absolute;
+  left: calc(50% - 678px);
+  top: 4543px;
+  overflow: visible;
+}
+.group-875041 {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-163 {
+  width: 874px;
+  height: 744px;
+  position: absolute;
+  left: calc(50% - 10px);
+  bottom: 0px;
+}
+.group24 {
+  width: 96.87px;
+  height: 46.57px;
+  position: static;
+}
+.group25 {
+  position: absolute;
+  left: 166px;
+  top: 6797px;
+  overflow: visible;
+}
+.group26 {
+  position: absolute;
+  left: 185.67px;
+  top: 6807.23px;
+  overflow: visible;
+}
+.group27 {
+  position: absolute;
+  left: 178.51px;
+  top: 6813.3px;
+  overflow: visible;
+}
+.group28 {
+  position: absolute;
+  left: 197.46px;
+  top: 6813.47px;
+  overflow: visible;
+}
+.group29 {
+  position: absolute;
+  left: 197.38px;
+  top: 6818.55px;
+  overflow: visible;
+}
+.group30 {
+  position: absolute;
+  left: 185.46px;
+  top: 6830.48px;
+  overflow: visible;
+}
+.group31 {
+  position: absolute;
+  left: 190.25px;
+  top: 6830.55px;
+  overflow: visible;
+}
+.group32 {
+  position: absolute;
+  left: 178.47px;
+  top: 6818.47px;
+  overflow: visible;
+}
+.group33 {
+  position: absolute;
+  left: 190.42px;
+  top: 6807.28px;
+  overflow: visible;
+}
+.group34 {
+  position: absolute;
+  left: 209.3px;
+  top: 6809.76px;
+  overflow: visible;
+}
+.frame-33631 {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 166px;
+  top: 6876px;
+}
+.join-us-on-sundays-for-our-in-person-gathering-at-9-00-am-venue-the-jewel-aeida-105-hakeem-dickson-link-rd-eti-osa-lekki2 {
+  color: var(--main-xiketic-black, #080510);
+  text-align: left;
+  font: 400 22px/32px "General Sans", sans-serif;
+  position: relative;
+  width: 413px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.join-us-on-sundays-for-our-in-person-gathering-at-9-00-am-venue-the-jewel-aeida-105-hakeem-dickson-link-rd-eti-osa-lekki-2-span {
+  color: var(--main-xiketic-black, #080510);
+  font: 400 22px/32px "General Sans", sans-serif;
+}
+.join-us-on-sundays-for-our-in-person-gathering-at-9-00-am-venue-the-jewel-aeida-105-hakeem-dickson-link-rd-eti-osa-lekki-2-span2 {
+  color: var(--main-xiketic-black, #080510);
+  font: 400 22px/32px "General Sans", sans-serif;
+  text-decoration: underline;
+}
+.call-234-8000000000 {
+  color: var(--main-xiketic-black, #080510);
+  text-align: left;
+  font: 400 22px/32px "General Sans", sans-serif;
+  text-decoration: underline;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.hello-citychurchlagos-com {
+  color: var(--main-xiketic-black, #080510);
+  text-align: left;
+  font: 400 22px/32px "General Sans", sans-serif;
+  text-decoration: underline;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.frame-874798 {
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.icon {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.icon2 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.icon3 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.icon4 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
